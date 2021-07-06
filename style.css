@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 :hover{
     transition: all 0.7s;
@@ -21,6 +22,7 @@ p{
     border: 3px solid green;
 } */
 
+
 .menu ul {
     overflow: auto;
 }
@@ -39,6 +41,9 @@ p{
 }
 
 .forest2 a:hover {
+    color: #a3c962;
+}
+.forest2 a:active{
     color: #a3c962;
 }
 
@@ -114,6 +119,11 @@ p{
 
 
 /* Second page */
+.page2{
+    /* margin: 50px 0px 0px 0px;     */
+    padding: 50px 0px 0px 0px;
+    /* border: 3px solid red; */
+}
 .secondP{
     /* border: 3px solid red; */
     /* background-color: gray; */
@@ -121,7 +131,7 @@ p{
     text-align: center;
 }
 #hp1{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: 10px;
     font-size: 20px;
     color:#a3c962 ;
